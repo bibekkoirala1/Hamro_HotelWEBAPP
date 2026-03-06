@@ -116,7 +116,6 @@ export default function ProductDetail() {
             Book Appointment
           </button>
 
-          {/* Social Media */}
           <div className="mt-6 flex items-center space-x-4 text-gray-600">
             <div className="flex space-x-4 text-xl">
               <FaFacebook className="cursor-pointer hover:text-blue-500" />

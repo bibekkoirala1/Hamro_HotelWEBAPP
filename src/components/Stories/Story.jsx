@@ -15,7 +15,6 @@ const Story = () => {
 
         console.log("Stories API response:", response.data); // ✅ debug
 
-        // some APIs return {stories: []}
         const data = Array.isArray(response.data)
           ? response.data
           : response.data.stories || [];
