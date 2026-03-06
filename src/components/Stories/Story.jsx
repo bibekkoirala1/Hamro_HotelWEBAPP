@@ -13,8 +13,7 @@ const Story = () => {
       try {
         const response = await axios.get(`${backendURL}/api/stories`);
 
-        console.log("Stories API response:", response.data); // ✅ debug
-
+        console.log("Stories API response:", response.data); 
         const data = Array.isArray(response.data)
           ? response.data
           : response.data.stories || [];
