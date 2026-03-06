@@ -3,7 +3,6 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 
 const FooterBg = {
-  // backgroundImage: `url(${FooterImg})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "bottom center",
