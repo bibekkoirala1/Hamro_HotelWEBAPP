@@ -20,7 +20,7 @@ export const UserProvider = ({ children }) => {
 
           if (response.ok) {
             const data = await response.json();
-            setUser(data); // Set user state
+            setUser(data); 
           }
         } catch (error) {
           console.error("Failed to fetch user", error);

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../../context/UserContext"; // Import UserContext
+import { UserContext } from "../../context/UserContext"; 
 import { toast } from "react-hot-toast";
 
 const ChangePass = () => {
@@ -11,7 +11,7 @@ const ChangePass = () => {
   });
 
   const [error, setError] = useState("");
-  const { logout } = useContext(UserContext); // Use logout function from context
+  const { logout } = useContext(UserContext); 
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -37,7 +37,6 @@ const ChangePass = () => {
       toast.success("Password changed successfully! Logging out...");
       setFormData({ oldPassword: "", newPassword: "" });
 
-      // Logout the user and redirect to login
       setTimeout(() => {
         logout(); 
         navigate("/login");
