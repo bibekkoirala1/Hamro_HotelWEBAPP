@@ -56,7 +56,7 @@ const Contacts = () => {
       console.error("Error:", err);
       toast.error("Something went wrong. Please try again.");
     } finally {
-      setDeleteContactId(null); // Close modal after delete operation
+      setDeleteContactId(null); 
     }
   };
 
