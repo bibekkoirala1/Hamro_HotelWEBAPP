@@ -34,7 +34,7 @@ const Story = () => {
   };
 
   const openPopup = (story = null) => {
-    setErrorMessage(""); // Clear any previous errors
+    setErrorMessage(""); 
     if (story) {
       setFormData({
         name: story.name,

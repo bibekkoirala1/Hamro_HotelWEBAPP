@@ -10,7 +10,6 @@ const Contacts = () => {
 
   const token = localStorage.getItem("token");
 
-  // ✅ Fetch contacts on component mount
   useEffect(() => {
     const fetchContacts = async () => {
       try {
@@ -37,7 +36,6 @@ const Contacts = () => {
     fetchContacts();
   }, [token]);
 
-  // ✅ Handle deleting a contact
   const handleDeleteContact = async () => {
     try {
       const response = await fetch(`http://localhost:3000/api/contact/${deleteContactId}`, {

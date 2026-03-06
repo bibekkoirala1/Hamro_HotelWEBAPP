@@ -9,7 +9,7 @@ const Navbar = () => {
   const { user, logout, setUser } = useContext(UserContext);
   const navigate = useNavigate();
   const location = useLocation();
-  const [isOpen, setIsOpen] = useState(false); // Mobile menu state
+  const [isOpen, setIsOpen] = useState(false); 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isEditPopupOpen, setIsEditPopupOpen] = useState(false);
   const [editForm, setEditForm] = useState({
