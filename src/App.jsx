@@ -59,7 +59,6 @@ const AppContent = () => {
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
 
-        {/* Access Denied Route */}
         <Route path="/access-denied" element={<AccessDenied />} />
       </Routes>
 
