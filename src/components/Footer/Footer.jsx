@@ -3,7 +3,6 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 
 const FooterBg = {
-  // backgroundImage: `url(${FooterImg})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "bottom center",
@@ -15,7 +14,6 @@ const Footer = () => {
       <div className="bg-white shadow-inner">
         <div className="container">
           <div className="grid md:grid-cols-4 md:gap-4 py-5 border-t-2 border-gray-300/10 text-black">
-            {/* brand info section */}
             <div className="py-8 px-4 space-y-4">
               <div className="text-2xl flex items-center gap-2 font-bold">
                 <p className="">

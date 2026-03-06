@@ -77,7 +77,6 @@ const Testimonial = () => {
           </p>
         </div>
 
-        {/* Testimonial cards section */}
         <div>
           <Slider {...setting}>
             {TestimonialsData.map((item) => {
