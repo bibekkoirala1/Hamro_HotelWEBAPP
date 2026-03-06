@@ -7,7 +7,7 @@ const Users = () => {
   const [newUser, setNewUser] = useState({ username: "", email: "", phone: "", password: "", role: "user" });
   const [formError, setFormError] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [deleteUserId, setDeleteUserId] = useState(null); // Store user ID for deletion confirmation
+  const [deleteUserId, setDeleteUserId] = useState(null);
   const token = localStorage.getItem("token");
 
   useEffect(() => {
