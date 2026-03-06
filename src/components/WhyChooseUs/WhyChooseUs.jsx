@@ -41,7 +41,6 @@ const WhyChooseUs = () => {
   return (
     <div className="">
       <div className="container py-24">
-        {/* header section */}
         <div className="space-y-4 p-6 text-center max-w-[500px] mx-auto mb-5">
           <h1 className="uppercase font-semibold text-blue-600">
             Why Choose Us
@@ -52,7 +51,6 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        {/* cards section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {WhyChooseData.map((item) => {
             return (
