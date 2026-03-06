@@ -13,7 +13,7 @@ const NewPass = () => {
     try {
       const response = await axios.post("http://localhost:3000/api/users/reset-password", { token, newPassword });
       toast.success(response.data.message);
-      navigate("/login"); // Redirect to login after reset
+      navigate("/login"); 
     } catch (error) {
       toast.error(error.response?.data?.error || "Failed to reset password");
     }
